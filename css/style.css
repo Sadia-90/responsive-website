@@ -99,6 +99,16 @@ nav a{
     justify-content: space-evenly;
     margin-bottom: 30px;
 }
+@media (max-width:900px) {
+   .card-section{
+    grid-template-columns: repeat(2, 1fr);
+   }
+}
+@media (max-width:550px) {
+    .card-section{
+     grid-template-columns: repeat(1, 1fr);
+    }
+ }
 .title{
     text-align: center;
     font-size: 30px;
@@ -167,10 +177,10 @@ article{
        flex-direction: column;
     } 
 }   */
- @media(max-width:760px){
+ /* @media(max-width:760px){
     main{
         flex-direction: column;
     }
-} 
+}  */
 
 
