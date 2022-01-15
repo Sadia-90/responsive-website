@@ -162,25 +162,5 @@ article{
 
 /* media querise */
 
-/* media devices */
-
-  /* @media only screen and (max-width:688px){
-    .header{
-        max-width: 100%;
-    }
-     main { 
-        background-color: rgb(95, 200, 241);
-        grid-template-columns: repeat(1, 1fr);
-
-    }
-     main{ 
-       flex-direction: column;
-    } 
-}   */
- /* @media(max-width:760px){
-    main{
-        flex-direction: column;
-    }
-}  */
 
 
